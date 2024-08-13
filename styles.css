@@ -15,6 +15,9 @@ div.payment {
     background: white;
 }
 img {
-    height: 100px;
+    height: 75px;
     width: auto;
+}
+div.card-message {
+    display: flex;
 }

@@ -10,7 +10,7 @@
 </head>
 <body>
   <div class="payment">
-    <header class="fs-2 mx-2"><strong>Paymeny Information</strong></header>
+    <header class="fs-2 m-2 bg-secondary"><strong>Paymeny Information</strong></header>
     <div class="alert-bar p-2">
       <div class="alert alert-danger" role="alert">
         Some information is missing
@@ -105,11 +105,17 @@
     <div class="cards-accept p-2 mx-1">
       <p>cards we cards accept.</p>
     </div>
-    <div class="credit-cards">
-      <img src="https://equestrio.co.nz/wp-content/uploads/2019/01/Credit-Card-Icons.png">
+    <div class="card-message">
+      <div class="credit-cards">
+        <img src="https://equestrio.co.nz/wp-content/uploads/2019/01/Credit-Card-Icons.png">
+      </div>
+      <div class="text-box p-2 mx-5 d-flex-end">
+        <textarea cols="50" rows="6" type="text" class="form-control" placeholder="Comments" aria-label="Comments"></textarea>
+      </div>
     </div>
-    <div class="text-box">
-      <input type="text" class="form-control" placeholder="Comments" aria-label="Comments">
+    <div class="submit d-flex-end mx-2 p-2">
+      <button type="button" class="btn btn-primary btn-lg">Submit</button>
+      <button type="button" class="btn btn-secondary btn-sm">Cancel</button>
     </div>
   </div>
 </body>
