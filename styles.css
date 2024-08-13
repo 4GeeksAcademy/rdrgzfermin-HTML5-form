@@ -14,3 +14,7 @@ div.payment {
     height: 600px;
     background: white;
 }
+img {
+    height: 100px;
+    width: auto;
+}
