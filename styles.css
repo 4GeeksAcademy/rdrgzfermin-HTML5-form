@@ -1,0 +1,16 @@
+body {
+    border: 100px;
+    background: lightgray;
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+
+}
+div.payment {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 600px;
+    background: white;
+}
