@@ -4,7 +4,16 @@ body {
     display: flex;
     justify-content: center;
     margin: 100px;
-
+}
+div.container{
+    background:
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+header {
+    background: lightgray;
+    display: flex;
 }
 div.payment {
     display: inline-block;
@@ -15,9 +24,25 @@ div.payment {
     background: white;
 }
 img {
+    margin-left: 50px;
     height: 75px;
     width: auto;
 }
-div.card-message {
-    display: flex;
+div.text-box{
+    margin-left: 150px;
 }
+div.buttons {
+    display: flex;
+    background: lightgray;
+    justify-content: flex-end;
+    bottom: 595px;
+    right: 929px;
+    margin-top: 30px;
+}
+div.submit {
+    margin:5px;
+}
+div.cancel {
+    margin: 5px;
+}
+
